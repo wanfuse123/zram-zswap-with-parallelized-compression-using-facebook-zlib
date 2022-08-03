@@ -1,0 +1,503 @@
+Hit:1 http://us.archive.ubuntu.com/ubuntu jammy InRelease
+Hit:2 http://us.archive.ubuntu.com/ubuntu jammy-updates InRelease
+Hit:3 http://us.archive.ubuntu.com/ubuntu jammy-backports InRelease              
+Hit:4 http://security.ubuntu.com/ubuntu jammy-security InRelease                 
+Reading package lists... Done                              
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+build-essential is already the newest version (12.9ubuntu3).
+cmake is already the newest version (3.22.1-1ubuntu1).
+libboost-program-options-dev is already the newest version (1.74.0.3ubuntu7).
+libboost-system-dev is already the newest version (1.74.0.3ubuntu7).
+libboost-thread-dev is already the newest version (1.74.0.3ubuntu7).
+liblz4-dev is already the newest version (1.9.3-2build2).
+liblzma-dev is already the newest version (5.2.5-2ubuntu1).
+tar is already the newest version (1.34+dfsg-1build3).
+wget is already the newest version (1.21.2-2ubuntu1).
+zlib1g is already the newest version (1:1.2.11.dfsg-2ubuntu9).
+zlib1g-dev is already the newest version (1:1.2.11.dfsg-2ubuntu9).
+libboost-test-dev is already the newest version (1.74.0.3ubuntu7).
+stress-ng is already the newest version (0.13.12-2).
+git is already the newest version (1:2.34.1-1ubuntu1.4).
+python3-twisted is already the newest version (22.1.0-2ubuntu2.1).
+twisted-doc is already the newest version (22.1.0-2ubuntu2.1).
+The following packages were automatically installed and are no longer required:
+  chromium-codecs-ffmpeg-extra gstreamer1.0-vaapi libgstreamer-plugins-bad1.0-0 libva-wayland2
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 46 not upgraded.
+/tmp/zram-zswap /home/steven/zram-zswap
+Cloning into 'zstd'...
+remote: Enumerating objects: 54655, done.
+remote: Counting objects: 100% (183/183), done.
+remote: Compressing objects: 100% (119/119), done.
+remote: Total 54655 (delta 91), reused 130 (delta 63), pack-reused 54472
+Receiving objects: 100% (54655/54655), 29.15 MiB | 4.76 MiB/s, done.
+Resolving deltas: 100% (40538/40538), done.
+/tmp/zram-zswap/zstd /tmp/zram-zswap /home/steven/zram-zswap
+Branch 'release' set up to track remote branch 'release' from 'origin'.
+Switched to a new branch 'release'
+make[1]: Entering directory '/tmp/zram-zswap/zstd/lib'
+CC obj/conf_8881431a4778a935081e36ee150def85/static/debug.o
+CC obj/conf_8881431a4778a935081e36ee150def85/static/entropy_common.o
+CC obj/conf_8881431a4778a935081e36ee150def85/static/error_private.o
+CC obj/conf_8881431a4778a935081e36ee150def85/static/fse_decompress.o
+CC obj/conf_8881431a4778a935081e36ee150def85/static/pool.o
+CC obj/conf_8881431a4778a935081e36ee150def85/static/threading.o
+CC obj/conf_8881431a4778a935081e36ee150def85/static/xxhash.o
+CC obj/conf_8881431a4778a935081e36ee150def85/static/zstd_common.o
+CC obj/conf_8881431a4778a935081e36ee150def85/static/zstd_v05.o
+CC obj/conf_8881431a4778a935081e36ee150def85/static/zstd_v06.o
+CC obj/conf_8881431a4778a935081e36ee150def85/static/zstd_v07.o
+CC obj/conf_8881431a4778a935081e36ee150def85/static/fse_compress.o
+CC obj/conf_8881431a4778a935081e36ee150def85/static/hist.o
+CC obj/conf_8881431a4778a935081e36ee150def85/static/huf_compress.o
+CC obj/conf_8881431a4778a935081e36ee150def85/static/zstd_compress.o
+CC obj/conf_8881431a4778a935081e36ee150def85/static/zstd_compress_literals.o
+CC obj/conf_8881431a4778a935081e36ee150def85/static/zstd_compress_sequences.o
+CC obj/conf_8881431a4778a935081e36ee150def85/static/zstd_compress_superblock.o
+CC obj/conf_8881431a4778a935081e36ee150def85/static/zstd_double_fast.o
+CC obj/conf_8881431a4778a935081e36ee150def85/static/zstd_fast.o
+CC obj/conf_8881431a4778a935081e36ee150def85/static/zstd_lazy.o
+CC obj/conf_8881431a4778a935081e36ee150def85/static/zstd_ldm.o
+CC obj/conf_8881431a4778a935081e36ee150def85/static/zstd_opt.o
+CC obj/conf_8881431a4778a935081e36ee150def85/static/zstdmt_compress.o
+CC obj/conf_8881431a4778a935081e36ee150def85/static/huf_decompress.o
+CC obj/conf_8881431a4778a935081e36ee150def85/static/zstd_ddict.o
+CC obj/conf_8881431a4778a935081e36ee150def85/static/zstd_decompress.o
+CC obj/conf_8881431a4778a935081e36ee150def85/static/zstd_decompress_block.o
+AS obj/conf_8881431a4778a935081e36ee150def85/static/huf_decompress_amd64.o
+CC obj/conf_8881431a4778a935081e36ee150def85/static/cover.o
+CC obj/conf_8881431a4778a935081e36ee150def85/static/divsufsort.o
+CC obj/conf_8881431a4778a935081e36ee150def85/static/fastcover.o
+CC obj/conf_8881431a4778a935081e36ee150def85/static/zdict.o
+compiling single-threaded static library 1.5.2
+CC obj/conf_7cd346d9800a4c75f82d148bd133563f/dynamic/debug.o
+CC obj/conf_7cd346d9800a4c75f82d148bd133563f/dynamic/entropy_common.o
+CC obj/conf_7cd346d9800a4c75f82d148bd133563f/dynamic/error_private.o
+CC obj/conf_7cd346d9800a4c75f82d148bd133563f/dynamic/fse_decompress.o
+CC obj/conf_7cd346d9800a4c75f82d148bd133563f/dynamic/pool.o
+CC obj/conf_7cd346d9800a4c75f82d148bd133563f/dynamic/threading.o
+CC obj/conf_7cd346d9800a4c75f82d148bd133563f/dynamic/xxhash.o
+CC obj/conf_7cd346d9800a4c75f82d148bd133563f/dynamic/zstd_common.o
+CC obj/conf_7cd346d9800a4c75f82d148bd133563f/dynamic/zstd_v05.o
+CC obj/conf_7cd346d9800a4c75f82d148bd133563f/dynamic/zstd_v06.o
+CC obj/conf_7cd346d9800a4c75f82d148bd133563f/dynamic/zstd_v07.o
+CC obj/conf_7cd346d9800a4c75f82d148bd133563f/dynamic/fse_compress.o
+CC obj/conf_7cd346d9800a4c75f82d148bd133563f/dynamic/hist.o
+CC obj/conf_7cd346d9800a4c75f82d148bd133563f/dynamic/huf_compress.o
+CC obj/conf_7cd346d9800a4c75f82d148bd133563f/dynamic/zstd_compress.o
+CC obj/conf_7cd346d9800a4c75f82d148bd133563f/dynamic/zstd_compress_literals.o
+CC obj/conf_7cd346d9800a4c75f82d148bd133563f/dynamic/zstd_compress_sequences.o
+CC obj/conf_7cd346d9800a4c75f82d148bd133563f/dynamic/zstd_compress_superblock.o
+CC obj/conf_7cd346d9800a4c75f82d148bd133563f/dynamic/zstd_double_fast.o
+CC obj/conf_7cd346d9800a4c75f82d148bd133563f/dynamic/zstd_fast.o
+CC obj/conf_7cd346d9800a4c75f82d148bd133563f/dynamic/zstd_lazy.o
+CC obj/conf_7cd346d9800a4c75f82d148bd133563f/dynamic/zstd_ldm.o
+CC obj/conf_7cd346d9800a4c75f82d148bd133563f/dynamic/zstd_opt.o
+CC obj/conf_7cd346d9800a4c75f82d148bd133563f/dynamic/zstdmt_compress.o
+CC obj/conf_7cd346d9800a4c75f82d148bd133563f/dynamic/huf_decompress.o
+CC obj/conf_7cd346d9800a4c75f82d148bd133563f/dynamic/zstd_ddict.o
+CC obj/conf_7cd346d9800a4c75f82d148bd133563f/dynamic/zstd_decompress.o
+CC obj/conf_7cd346d9800a4c75f82d148bd133563f/dynamic/zstd_decompress_block.o
+AS obj/conf_7cd346d9800a4c75f82d148bd133563f/dynamic/huf_decompress_amd64.o
+CC obj/conf_7cd346d9800a4c75f82d148bd133563f/dynamic/cover.o
+CC obj/conf_7cd346d9800a4c75f82d148bd133563f/dynamic/divsufsort.o
+CC obj/conf_7cd346d9800a4c75f82d148bd133563f/dynamic/fastcover.o
+CC obj/conf_7cd346d9800a4c75f82d148bd133563f/dynamic/zdict.o
+compiling multi-threaded dynamic library 1.5.2
+creating versioned links
+creating pkgconfig
+release build completed
+make[1]: Leaving directory '/tmp/zram-zswap/zstd/lib'
+make[1]: Entering directory '/tmp/zram-zswap/zstd/programs'
+CC obj/conf_03bab4ab8942ea675c0f237fedb6a601/debug.o
+CC obj/conf_03bab4ab8942ea675c0f237fedb6a601/entropy_common.o
+CC obj/conf_03bab4ab8942ea675c0f237fedb6a601/error_private.o
+CC obj/conf_03bab4ab8942ea675c0f237fedb6a601/fse_decompress.o
+CC obj/conf_03bab4ab8942ea675c0f237fedb6a601/pool.o
+CC obj/conf_03bab4ab8942ea675c0f237fedb6a601/threading.o
+CC obj/conf_03bab4ab8942ea675c0f237fedb6a601/xxhash.o
+CC obj/conf_03bab4ab8942ea675c0f237fedb6a601/zstd_common.o
+CC obj/conf_03bab4ab8942ea675c0f237fedb6a601/fse_compress.o
+CC obj/conf_03bab4ab8942ea675c0f237fedb6a601/hist.o
+CC obj/conf_03bab4ab8942ea675c0f237fedb6a601/huf_compress.o
+CC obj/conf_03bab4ab8942ea675c0f237fedb6a601/zstd_compress.o
+CC obj/conf_03bab4ab8942ea675c0f237fedb6a601/zstd_compress_literals.o
+CC obj/conf_03bab4ab8942ea675c0f237fedb6a601/zstd_compress_sequences.o
+CC obj/conf_03bab4ab8942ea675c0f237fedb6a601/zstd_compress_superblock.o
+CC obj/conf_03bab4ab8942ea675c0f237fedb6a601/zstd_double_fast.o
+CC obj/conf_03bab4ab8942ea675c0f237fedb6a601/zstd_fast.o
+CC obj/conf_03bab4ab8942ea675c0f237fedb6a601/zstd_lazy.o
+CC obj/conf_03bab4ab8942ea675c0f237fedb6a601/zstd_ldm.o
+CC obj/conf_03bab4ab8942ea675c0f237fedb6a601/zstd_opt.o
+CC obj/conf_03bab4ab8942ea675c0f237fedb6a601/zstdmt_compress.o
+CC obj/conf_03bab4ab8942ea675c0f237fedb6a601/huf_decompress.o
+AS obj/conf_03bab4ab8942ea675c0f237fedb6a601/huf_decompress_amd64.o
+CC obj/conf_03bab4ab8942ea675c0f237fedb6a601/zstd_ddict.o
+CC obj/conf_03bab4ab8942ea675c0f237fedb6a601/zstd_decompress.o
+CC obj/conf_03bab4ab8942ea675c0f237fedb6a601/zstd_decompress_block.o
+CC obj/conf_03bab4ab8942ea675c0f237fedb6a601/cover.o
+CC obj/conf_03bab4ab8942ea675c0f237fedb6a601/divsufsort.o
+CC obj/conf_03bab4ab8942ea675c0f237fedb6a601/fastcover.o
+CC obj/conf_03bab4ab8942ea675c0f237fedb6a601/zdict.o
+CC obj/conf_03bab4ab8942ea675c0f237fedb6a601/zstd_v05.o
+CC obj/conf_03bab4ab8942ea675c0f237fedb6a601/zstd_v06.o
+CC obj/conf_03bab4ab8942ea675c0f237fedb6a601/zstd_v07.o
+CC obj/conf_03bab4ab8942ea675c0f237fedb6a601/benchfn.o
+CC obj/conf_03bab4ab8942ea675c0f237fedb6a601/benchzstd.o
+CC obj/conf_03bab4ab8942ea675c0f237fedb6a601/datagen.o
+CC obj/conf_03bab4ab8942ea675c0f237fedb6a601/dibio.o
+CC obj/conf_03bab4ab8942ea675c0f237fedb6a601/fileio.o
+CC obj/conf_03bab4ab8942ea675c0f237fedb6a601/timefn.o
+CC obj/conf_03bab4ab8942ea675c0f237fedb6a601/util.o
+CC obj/conf_03bab4ab8942ea675c0f237fedb6a601/zstdcli.o
+CC obj/conf_03bab4ab8942ea675c0f237fedb6a601/zstdcli_trace.o
+==> building with threading support
+==> building zstd with .gz compression support
+==> building zstd with .xz/.lzma compression support
+==> building zstd with .lz4 compression support
+LINK obj/conf_03bab4ab8942ea675c0f237fedb6a601/zstd
+zstd build completed
+make[1]: Leaving directory '/tmp/zram-zswap/zstd/programs'
+make[1]: Entering directory '/tmp/zram-zswap/zstd/lib'
+Installing static library
+Installing shared library
+Installing includes
+zstd static and shared library installed
+make[1]: Leaving directory '/tmp/zram-zswap/zstd/lib'
+make[1]: Entering directory '/tmp/zram-zswap/zstd/programs'
+Installing binaries
+Installing man pages
+zstd installation completed
+make[1]: Leaving directory '/tmp/zram-zswap/zstd/programs'
+/tmp/zram-zswap /tmp/zram-zswap/zstd /tmp/zram-zswap /home/steven/zram-zswap
+Cloning into 'zswap-cli'...
+remote: Enumerating objects: 79, done.
+remote: Counting objects: 100% (79/79), done.
+remote: Compressing objects: 100% (73/73), done.
+remote: Total 79 (delta 4), reused 29 (delta 0), pack-reused 0
+Receiving objects: 100% (79/79), 29.29 KiB | 2.66 MiB/s, done.
+Resolving deltas: 100% (4/4), done.
+Submodule '3rdparty/fmt' (https://github.com/fmtlib/fmt.git) registered for path '3rdparty/fmt'
+Submodule '3rdparty/semver' (https://github.com/Neargye/semver.git) registered for path '3rdparty/semver'
+Cloning into '/tmp/zram-zswap/zswap-cli/3rdparty/fmt'...
+remote: Enumerating objects: 29561, done.        
+remote: Counting objects: 100% (34/34), done.        
+remote: Compressing objects: 100% (24/24), done.        
+remote: Total 29561 (delta 11), reused 24 (delta 6), pack-reused 29527        
+Receiving objects: 100% (29561/29561), 13.91 MiB | 16.31 MiB/s, done.
+Resolving deltas: 100% (19964/19964), done.
+Cloning into '/tmp/zram-zswap/zswap-cli/3rdparty/semver'...
+remote: Enumerating objects: 850, done.        
+remote: Counting objects: 100% (109/109), done.        
+remote: Compressing objects: 100% (33/33), done.        
+remote: Total 850 (delta 93), reused 76 (delta 76), pack-reused 741        
+Receiving objects: 100% (850/850), 370.48 KiB | 3.22 MiB/s, done.
+Resolving deltas: 100% (455/455), done.
+Submodule path '3rdparty/fmt': checked out 'd141cdbeb0fb422a3fb7173b285fd38e0d1772dc'
+Submodule path '3rdparty/semver': checked out '6c1042c108bacdecce6eeeadcb9c87a75c4d8b2d'
+/tmp/zram-zswap/zswap-cli /tmp/zram-zswap /tmp/zram-zswap/zstd /tmp/zram-zswap /home/steven/zram-zswap
+Submodule path '3rdparty/fmt': checked out '6567df7f2400835299ba3e52566497391d6b8dff'
+Submodule path '3rdparty/semver': checked out '57a665d9a63c915038968a10ef3d45e80f6cc9da'
+/tmp/zram-zswap/zswap-cli/build /tmp/zram-zswap/zswap-cli /tmp/zram-zswap /tmp/zram-zswap/zstd /tmp/zram-zswap /home/steven/zram-zswap
+-- The CXX compiler identification is GNU 11.2.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: program_options 
+-- Using bundled version of fmt library.
+-- Module support is disabled.
+-- Version: 9.0.0
+-- Build type: 
+-- CXX_STANDARD: 17
+-- Performing Test has_std_17_flag
+-- Performing Test has_std_17_flag - Success
+-- Performing Test has_std_1z_flag
+-- Performing Test has_std_1z_flag - Success
+-- Required features: cxx_variadic_templates
+-- Using bundled version of semver library.
+-- Performing Test _FILESYSTEM_HEADER_CHECK
+-- Performing Test _FILESYSTEM_HEADER_CHECK - Success
+-- Performing Test _FILESYSTEM_LIBRARY_CHECK
+-- Performing Test _FILESYSTEM_LIBRARY_CHECK - Success
+-- Found C++ filesystem library: <filesystem>.
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/zram-zswap/zswap-cli/build
+make: *** No rule to make target '2*2'.  Stop.
+[  8%] Building CXX object 3rdparty/fmt/CMakeFiles/fmt.dir/src/format.cc.o
+[ 16%] Building CXX object 3rdparty/fmt/CMakeFiles/fmt.dir/src/os.cc.o
+[ 25%] Linking CXX static library libfmt.a
+[ 25%] Built target fmt
+[ 33%] Building CXX object src/lib/CMakeFiles/zswap-cli-lib.dir/cwrappers/cwrappers.cpp.o
+[ 41%] Building CXX object src/lib/CMakeFiles/zswap-cli-lib.dir/ksysinfo/ksysinfo.cpp.o
+[ 50%] Building CXX object src/lib/CMakeFiles/zswap-cli-lib.dir/ksysversion/ksysversion.cpp.o
+[ 58%] Building CXX object src/lib/CMakeFiles/zswap-cli-lib.dir/zswapworker/zswapworker.cpp.o
+[ 66%] Building CXX object src/lib/CMakeFiles/zswap-cli-lib.dir/zswapobject/zswapobject.cpp.o
+[ 75%] Building CXX object src/lib/CMakeFiles/zswap-cli-lib.dir/zswapdebug/zswapdebug.cpp.o
+[ 75%] Built target zswap-cli-lib
+[ 83%] Building CXX object src/app/CMakeFiles/zswap-cli.dir/application/application.cpp.o
+[ 91%] Building CXX object src/app/CMakeFiles/zswap-cli.dir/main.cpp.o
+[100%] Linking CXX executable zswap-cli
+[100%] Built target zswap-cli
+Install the project...
+-- Install configuration: ""
+-- Installing: /usr/local/lib/systemd/system/zswap-cli.service
+-- Installing: /usr/local/etc/zswap-cli/zswap-cli.conf
+-- Installing: /usr/local/sbin/zswap-cli
+/tmp/zram-zswap /tmp/zram-zswap/zswap-cli/build /tmp/zram-zswap/zswap-cli /tmp/zram-zswap /tmp/zram-zswap/zstd /tmp/zram-zswap /home/steven/zram-zswap
+SCRIPT TO PUT INTO #initramfs-mods-8234006334534
+# List of modules that you want to include in your initramfs.
+# They will be loaded at boot time in the order below.
+#
+# Syntax:  module_name [args ...]
+#
+# You must run update-initramfs(8) to effect this change.
+#
+# Examples:
+#
+# raid1
+# sd_mod
+lz4
+lz4_compress
+z3fold
+zstd
+z3fold
+lz4hc
+lz4hc_compress
+z3fold 
+ 
+ with contents /etc/initramfs-tools/modules 
+ 
+Script already added in full OR in part  to .bashrc 
+continuing 
+update-initramfs: Generating /boot/initrd.img-5.15.0-43-generic
+I: The initramfs will attempt to resume from /dev/vda3
+I: (UUID=62f8480c-a957-47e0-833a-580b6f277978)
+I: Set the RESUME variable to override this.
+SCRIPT TO PUT INTO [Unit]
+Description=Zram-based swap (compressed RAM block devices)
+
+[Service]
+Type=oneshot
+ExecStart=/etc/systemd/system/zram start
+ExecStop=/etc/systemd/system/zram stop
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target 
+ 
+ with contents /etc/initramfs-tools/modules 
+ 
+Script already added in full OR in part  to .bashrc 
+continuing 
+SCRIPT TO PUT INTO [Unit]
+Description=Zram-based swap (compressed RAM block devices)
+
+[Service]
+Type=oneshot
+ExecStart=/etc/systemd/system/zram start
+ExecStop=/etc/systemd/system/zram stop
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target 
+ 
+ with contents /lib/systemd/system/zswap.service 
+ 
+Script already added in full OR in part  to .bashrc 
+continuing 
+update-rc.d: error: cannot find a LSB script for zswap.service
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+systemd-zram-generator is already the newest version (0.3.2-1).
+The following packages were automatically installed and are no longer required:
+  chromium-codecs-ffmpeg-extra gstreamer1.0-vaapi libgstreamer-plugins-bad1.0-0 libva-wayland2
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 46 not upgraded.
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+systemd-zram-generator is already the newest version (0.3.2-1).
+The following packages were automatically installed and are no longer required:
+  chromium-codecs-ffmpeg-extra gstreamer1.0-vaapi libgstreamer-plugins-bad1.0-0 libva-wayland2
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 46 not upgraded.
+SCRIPT TO PUT INTO compression-algorithm = lz4hc[zram0]
+zram-fraction=1.0
+max-zram-size=16384
+compression-algorithm=lz4hc 
+ 
+ with contents /etc/systemd/zram-generator.conf 
+ 
+Script already added in full OR in part  to .bashrc 
+continuing 
+SCRIPT TO PUT INTO #!/bin/bash
+printf "zram configuration help  This command needs to be run as root  \n"
+zramctl --help
+printf "zswap configuration help  This command needs to be run as root  \n"
+zswap-cli --help
+
+printf "zswap current stats ...\n "
+zswap-cli --stats
+printf "zram current stats ... \n "
+zramctl 
+ 
+ with contents /usr/local/bin/zram_zswap_stat.sh 
+ 
+Script already added in full OR in part  to .bashrc 
+continuing 
+Writing a new value "Y" to the "enabled" variable. The old value was: "Y".
+Writing a new value "Y" to the "same_filled_pages_enabled" variable. The old value was: "Y".
+Writing a new value "60" to the "max_pool_percent" variable. The old value was: "60".
+Writing a new value "zstd" to the "compressor" variable. The old value was: "lz4hc".
+Writing a new value "z3fold" to the "zpool" variable. The old value was: "z3fold".
+Writing a new value "40" to the "accept_threshold_percent" variable. The old value was: "40".
+SCRIPT TO PUT INTO read -r -d '' LINE_CONTENTS << 'zram_zswap_ON-8234006334534'
+#!/bin/bash
+
+#ZRAM Config 
+
+#Disable zswap
+echo 0 > /sys/module/zswap/parameters/enabled
+
+modprobe zram
+
+#ZRAM swap
+#zram0
+echo lz4hc > /sys/block/zram0/comp_algorithm
+echo 4G > /sys/block/zram0/disksize
+mkswap --label zram0 /dev/zram0
+swapon --priority 32767 /dev/zram0
+
+#zram1
+cat /sys/class/zram-control/hot_add
+echo lz4hc > /sys/block/zram1/comp_algorithm
+echo 4G > /sys/block/zram1/disksize
+mkswap --label zram1 /dev/zram1
+swapon --priority 32767 /dev/zram1
+
+#zram2
+cat /sys/class/zram-control/hot_add
+echo lz4hc > /sys/block/zram2/comp_algorithm
+echo 4G > /sys/block/zram2/disksize
+mkswap --label zram2 /dev/zram2
+swapon --priority 32767 /dev/zram2
+
+#zram3
+cat /sys/class/zram-control/hot_add
+echo lz4hc > /sys/block/zram3/comp_algorithm
+echo 4G > /sys/block/zram3/disksize
+mkswap --label zram3 /dev/zram3
+swapon --priority 32767 /dev/zram3
+
+# /tmp on ZRAM
+cat /sys/class/zram-control/hot_add
+echo lz4hc > /sys/block/zram4/comp_algorithm
+echo 6G > /sys/block/zram4/disksize
+mkfs.ext4 /dev/zram4
+mount /dev/zram4 /tmp
+chmod 1777 /tmp
+
+#Virtual Memory Kernel Tweaks default for low-memory systems
+sysctl -w vm.swappiness=100
+sysctl -w vm.vfs_cache_pressure=500
+sysctl -w vm.dirty_background_ratio=1
+sysctl -w vm.dirty_ratio=50
+zram_zswap_ON-8234006334534 
+ 
+ with contents /usr/local/bin/ZRAM_ZSWAP_ON.sh 
+ 
+Script already added in full OR in part  to .bashrc 
+continuing 
+SCRIPT TO PUT INTO #!/bin/bash
+
+#ZRAM Config
+
+#ZRAM Swap
+swapoff /dev/zram0
+swapoff /dev/zram1
+swapoff /dev/zram2
+swapoff /dev/zram3
+# /tmp on ZRAM
+umount /dev/zram4
+
+echo 0 > /sys/class/zram-control/hot_remove
+# Not required, but creating a blank uninitalzed drive
+# after removing one may be desired
+cat /sys/class/zram-control/hot_add 
+ 
+ with contents /usr/local/bin/ZRAM_ZSWAP_OFF.sh 
+ 
+Script already added in full OR in part  to .bashrc 
+continuing 
+current grub configuration: 
+GRUB_CMDLINE_LINUX_DEFAULT="quiet splash zswap.enabled=1 zswap.max_pool_percent=25 zswap.compressor=lz4hc"
+
+
+
+setting grub CMDLINE to:GRUB_CMDLINE_LINUX_DEFAULT="quiet splash zswap.enabled=1 zswap.max_pool_percent=25 zswap.compressor=lz4hc"
+
+
+
+Sourcing file `/etc/default/grub'
+Sourcing file `/etc/default/grub.d/init-select.cfg'
+Generating grub configuration file ...
+Found linux image: /boot/vmlinuz-5.15.0-43-generic
+Found initrd image: /boot/initrd.img-5.15.0-43-generic
+Found linux image: /boot/vmlinuz-5.15.0-25-generic
+Found initrd image: /boot/initrd.img-5.15.0-25-generic
+Found memtest86+ image: /boot/memtest86+.elf
+Found memtest86+ image: /boot/memtest86+.bin
+Warning: os-prober will not be executed to detect other bootable partitions.
+Systems on them will not be added to the GRUB boot configuration.
+Check GRUB_DISABLE_OS_PROBER documentation entry.
+done
+
+added  the following to /etc/default/grub
+edited the line that reads 
+GRUB_CMDLINE_LINUX_DEFAULT=quiet splash or something similar and
+change it to read: 
+GRUB_CMDLINE_LINUX_DEFAULT="quiet splash zswap.enabled=1 zswap.max_pool_percent=25 zswap.compressor=lz4hc"
+and made a backup copy of it at /etc/default/grub.sav
+
+***IF FOR SOME REASON YOUR SYSTEM DOES NOT BOOT*** 
+then follow these directions to get your system to boot:
+
+https://askubuntu.com/questions/19486/how-do-i-add-a-kernel-boot-parameter
+
+once booted you will need to do:
+
+nano /etc/default/grub and change the 
+
+line to read GRUB_CMDLINE_LINUX_DEFAULT=quiet splash
+
+followed by:
+
+sudo update-grub
+
+You will need to know the administrator password.
+
+
+After this you can safely reboot the machine.
+
+If it does not work then you will need to follow the directions at the url again.
+
+please take a camera shot of this screen for your notes before restarting the system
+
+
+If all went well you should have a working system and the above steps will not be necessary
+
+To stress test your system, use:
+
+( After taking a pic with your camera, run the following command after a reboot )
+
+stress-ng --vm-bytes $(awk '/MemAvailable/{printf "%d\n", $2 * 0.9;}' < /proc/meminfo)k --vm-keep -m 1'
+
+Run: /usr/local/bin/./zram_zswap_stat.sh 
+for stats about zram zswap
+
