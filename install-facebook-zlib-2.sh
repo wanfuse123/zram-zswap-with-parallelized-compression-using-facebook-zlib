@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export user_for_Build="steven"
+export user_for_Build="$USER"
 printf "User is: %s\n" "$user_for_Build"
 export uml_VERSION="UML-11"
 export zram_zswap="zram-zswap"
